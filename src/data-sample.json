@@ -59,5 +59,10 @@
       "title": "Project Six",
       "url": "projectsix.io"
     }
-  ]
+  ],
+  "footer": {
+    "footer_link_1": "websiteone.com",
+    "footer_link_2": "websitetwo.com",
+    "footer_link_3": "websitethree.com"
+  }
 }

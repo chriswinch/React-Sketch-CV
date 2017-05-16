@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-sketchapp';
 import { artboard, fonts } from '../design';
+import data from '../data-sample.json';
 
 const styles = StyleSheet.create({
   wrapper: {
@@ -22,14 +23,14 @@ const styles = StyleSheet.create({
 const Footer = () => (
   <View style={styles.wrapper}>
     <View style={styles.footerItem}>
-      <Text>Chris Winch</Text>
-      <Text style={fonts.body}>chriswinch.me</Text>
-      <Text style={fonts.body}>github.com/chriswinch</Text>
-      <Text style={fonts.body}>codepen.io/chriswinch</Text>
+      <Text>{data.name}</Text>
+      <Text style={fonts.body}>{data.footer.footer_link_1}</Text>
+      <Text style={fonts.body}>{data.footer.footer_link_2}</Text>
+      <Text style={fonts.body}>{data.footer.footer_link_3}</Text>
     </View>
-    <View style={[styles.footerItem, { }]}>
-      <Text style={[fonts.subHeading2, {  }]}>My CV was built using React.</Text>
-      <Text style={[fonts.body, {  }]}>View project files at https://github.com/chriswinch/React-Sketch-CV</Text>
+    <View style={styles.footerItem}>
+      <Text style={fonts.subHeading2}>My CV was built using React.</Text>
+      <Text style={fonts.body}>View project files at https://github.com/chriswinch/React-Sketch-CV</Text>
     </View>
   </View>
 );

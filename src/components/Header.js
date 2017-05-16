@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-sketchapp';
 import { fonts } from '../design';
-import data from '../data.json';
+import data from '../data-sample.json';
 
 const styles = StyleSheet.create({
   headerWrapper: {

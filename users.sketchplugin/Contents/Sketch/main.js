@@ -6743,9 +6743,9 @@ var _reactSketchapp = __webpack_require__(8);
 
 var _design = __webpack_require__(10);
 
-var _data = __webpack_require__(142);
+var _dataSample = __webpack_require__(143);
 
-var _data2 = _interopRequireDefault(_data);
+var _dataSample2 = _interopRequireDefault(_dataSample);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -6762,7 +6762,7 @@ var AboutMe = function AboutMe() {
     _react2['default'].createElement(
       _reactSketchapp.Text,
       { style: _design.fonts.body },
-      _data2['default'].bio
+      _dataSample2['default'].bio
     )
   );
 };
@@ -6786,9 +6786,9 @@ var _reactSketchapp = __webpack_require__(8);
 
 var _design = __webpack_require__(10);
 
-var _data = __webpack_require__(142);
+var _dataSample = __webpack_require__(143);
 
-var _data2 = _interopRequireDefault(_data);
+var _dataSample2 = _interopRequireDefault(_dataSample);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -6824,7 +6824,7 @@ var ContentRow = function ContentRow() {
         _react2['default'].createElement(
           _reactSketchapp.Text,
           { style: _design.fonts.body },
-          _data2['default'].skills
+          _dataSample2['default'].skills
         )
       )
     ),
@@ -6842,7 +6842,7 @@ var ContentRow = function ContentRow() {
         _react2['default'].createElement(
           _reactSketchapp.Text,
           { style: _design.fonts.body },
-          _data2['default'].education
+          _dataSample2['default'].education
         )
       )
     ),
@@ -6857,7 +6857,7 @@ var ContentRow = function ContentRow() {
       _react2['default'].createElement(
         _reactSketchapp.View,
         { style: styles.contentItemText },
-        _data2['default'].projects.map(function (project) {
+        _dataSample2['default'].projects.map(function (project) {
           return _react2['default'].createElement(
             _reactSketchapp.Text,
             { style: [_design.fonts.body, { flexDirection: 'row' }] },
@@ -6890,9 +6890,9 @@ var _reactSketchapp = __webpack_require__(8);
 
 var _ExperienceItem = __webpack_require__(39);
 
-var _data = __webpack_require__(142);
+var _dataSample = __webpack_require__(143);
 
-var _data2 = _interopRequireDefault(_data);
+var _dataSample2 = _interopRequireDefault(_dataSample);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -6908,7 +6908,7 @@ var Experience = function Experience() {
   return _react2['default'].createElement(
     _reactSketchapp.View,
     { name: 'Experience', style: styles.wrapper },
-    _data2['default'].experience.map(function (experience) {
+    _dataSample2['default'].experience.map(function (experience) {
       return _react2['default'].createElement(_ExperienceItem.ExperienceItem, { experience: experience });
     })
   );
@@ -6932,6 +6932,10 @@ var _react2 = _interopRequireDefault(_react);
 var _reactSketchapp = __webpack_require__(8);
 
 var _design = __webpack_require__(10);
+
+var _dataSample = __webpack_require__(143);
+
+var _dataSample2 = _interopRequireDefault(_dataSample);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -6960,35 +6964,35 @@ var Footer = function Footer() {
       _react2['default'].createElement(
         _reactSketchapp.Text,
         null,
-        'Chris Winch'
+        _dataSample2['default'].name
       ),
       _react2['default'].createElement(
         _reactSketchapp.Text,
         { style: _design.fonts.body },
-        'chriswinch.me'
+        _dataSample2['default'].footer.footer_link_1
       ),
       _react2['default'].createElement(
         _reactSketchapp.Text,
         { style: _design.fonts.body },
-        'github.com/chriswinch'
+        _dataSample2['default'].footer.footer_link_2
       ),
       _react2['default'].createElement(
         _reactSketchapp.Text,
         { style: _design.fonts.body },
-        'codepen.io/chriswinch'
+        _dataSample2['default'].footer.footer_link_3
       )
     ),
     _react2['default'].createElement(
       _reactSketchapp.View,
-      { style: [styles.footerItem, {}] },
+      { style: styles.footerItem },
       _react2['default'].createElement(
         _reactSketchapp.Text,
-        { style: [_design.fonts.subHeading2, {}] },
+        { style: _design.fonts.subHeading2 },
         'My CV was built using React.'
       ),
       _react2['default'].createElement(
         _reactSketchapp.Text,
-        { style: [_design.fonts.body, {}] },
+        { style: _design.fonts.body },
         'View project files at https://github.com/chriswinch/React-Sketch-CV'
       )
     )
@@ -7014,9 +7018,9 @@ var _reactSketchapp = __webpack_require__(8);
 
 var _design = __webpack_require__(10);
 
-var _data = __webpack_require__(142);
+var _dataSample = __webpack_require__(143);
 
-var _data2 = _interopRequireDefault(_data);
+var _dataSample2 = _interopRequireDefault(_dataSample);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -7052,12 +7056,12 @@ var Header = function Header() {
       _react2['default'].createElement(
         _reactSketchapp.Text,
         { style: _design.fonts.h1 },
-        _data2['default'].name
+        _dataSample2['default'].name
       ),
       _react2['default'].createElement(
         _reactSketchapp.Text,
         { style: [_design.fonts.h4, styles.jobTitle] },
-        _data2['default'].job
+        _dataSample2['default'].job
       )
     ),
     _react2['default'].createElement(
@@ -7071,8 +7075,8 @@ var Header = function Header() {
       _react2['default'].createElement(
         _reactSketchapp.Text,
         { name: 'Contact Info', style: [_design.fonts.body, styles.contactText] },
-        _data2['default'].phone,
-        _data2['default'].email
+        _dataSample2['default'].phone,
+        _dataSample2['default'].email
       )
     ),
     _react2['default'].createElement(
@@ -7089,17 +7093,17 @@ var Header = function Header() {
         _react2['default'].createElement(
           _reactSketchapp.Text,
           { name: 'Street' },
-          _data2['default'].address.street
+          _dataSample2['default'].address.street
         ),
         _react2['default'].createElement(
           _reactSketchapp.Text,
           { name: 'City' },
-          _data2['default'].address.city
+          _dataSample2['default'].address.city
         ),
         _react2['default'].createElement(
           _reactSketchapp.Text,
           { name: 'PostCode' },
-          _data2['default'].address.postcode
+          _dataSample2['default'].address.postcode
         )
       )
     )
@@ -15946,19 +15950,20 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 /***/ }),
-/* 142 */
+/* 142 */,
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
-	"name": "Chris Winch",
-	"job": "Frontend Developer",
-	"phone": "07446055398",
-	"email": "hello@chriswinch.me",
-	"website": "chriswinch.me",
+	"name": "Your Name",
+	"job": "Job Title",
+	"phone": "0123456789",
+	"email": "email@email.com",
+	"website": "your-website.com",
 	"address": {
-		"street": "31 Queen Square",
-		"city": "Glasgow",
-		"postcode": "G41 2BD"
+		"street": "Street",
+		"city": "City",
+		"postcode": "A12 3CD"
 	},
 	"bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto commodi temporibus quidem maiores quia quos distinctio cum maxime accusantium consequatur, deserunt optio fugit delectus, voluptates officia unde id? At, laudantium.",
 	"experience": [
@@ -15983,38 +15988,39 @@ module.exports = {
 			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolor adipisci perspiciatis, asperiores quo? Animi veniam veritatis commodi eos dicta ipsam necessitatibus hic eligendi architecto, saepe aperiam nam eaque quia."
 		}
 	],
-	"skills": "HTML5 / CSS3 & SASS / JAVASCRIPT / ES6 / REACT / REACT NATIVE / WEBPACK & GULP / MOCHA / JEST / NODE / PHP / WORDPRESS / FOUNDATION & BOOTSTRAP / SHOPIFY / SKETCH / ADOBE CREATIVE SUITE",
-	"education": "I am proudly self taught and have felt that due to the fast paced nature of our industry that this has let me learn and adapt quickly. I am constantly learning and try to pick up new technologies / tools as they are needed.",
+	"skills": "SKILL 1 / SKILL 2 / SKILL 3 / SKILL 4 / SKILL 5 / SKILL 6 / SKILL 7 / SKILL 8 / SKILL 9 / SKILL 10",
+	"education": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ut perferendis itaque quis reiciendis dicta ipsa repellat, nostrum laboriosam rem in dolorum omnis suscipit minus! Illum ullam voluptas aperiam reprehenderit!",
 	"projects": [
 		{
-			"title": "Courtauld",
-			"url": "courtauld.ac.uk"
+			"title": "Project One",
+			"url": "projectone.com"
 		},
 		{
-			"title": "The Sixteen",
-			"url": "thesixteen.com"
+			"title": "Project Two",
+			"url": "projecttwo.net"
 		},
 		{
-			"title": "Hamilton Park Racecourse",
-			"url": "hamiltonpark.co.uk"
+			"title": "Project Three",
+			"url": "projectthree.co.uk"
 		},
 		{
-			"title": "Drop & Roll Tour",
-			"url": "dropandrolltour.com"
+			"title": "Project Four",
+			"url": "projectfour.me"
 		},
 		{
-			"title": "Uwi Technology",
-			"url": "uwitechnology.com"
+			"title": "Project Five",
+			"url": "projectfive.it"
 		},
 		{
-			"title": "Credit Fix",
-			"url": "creditfix.co.uk"
-		},
-		{
-			"title": "Unit 23 Skatepark",
-			"url": "unit23skatepark.co.uk"
+			"title": "Project Six",
+			"url": "projectsix.io"
 		}
-	]
+	],
+	"footer": {
+		"footer_link_1": "websiteone.com",
+		"footer_link_2": "websitetwo.com",
+		"footer_link_3": "websitethree.com"
+	}
 };
 
 /***/ })

@@ -1,0 +1,23 @@
+{
+  "name": "react-sketch-cv",
+  "version": "1.0.0",
+  "main": "users.sketchplugin",
+  "repository": "https://github.com/chriswinch/React-Sketch-CV",
+  "author": "Chris Winch",
+  "manifest": "src/manifest.json",
+  "license": "MIT",
+  "scripts": {
+    "build": "skpm build",
+    "watch": "skpm build --watch",
+    "render": "skpm build --watch --run",
+    "render:once": "skpm build --run",
+    "link-plugin": "skpm link"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-primitives": "^0.4.2",
+    "react-sketchapp": "^0.10.3",
+    "react-test-renderer": "^15.5.4",
+    "skpm": "^0.9.8"
+  }
+}

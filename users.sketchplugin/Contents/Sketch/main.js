@@ -6743,9 +6743,9 @@ var _reactSketchapp = __webpack_require__(8);
 
 var _design = __webpack_require__(10);
 
-var _dataSample = __webpack_require__(143);
+var _data = __webpack_require__(142);
 
-var _dataSample2 = _interopRequireDefault(_dataSample);
+var _data2 = _interopRequireDefault(_data);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -6762,7 +6762,7 @@ var AboutMe = function AboutMe() {
     _react2['default'].createElement(
       _reactSketchapp.Text,
       { style: _design.fonts.body },
-      _dataSample2['default'].bio
+      _data2['default'].bio
     )
   );
 };
@@ -6786,9 +6786,9 @@ var _reactSketchapp = __webpack_require__(8);
 
 var _design = __webpack_require__(10);
 
-var _dataSample = __webpack_require__(143);
+var _data = __webpack_require__(142);
 
-var _dataSample2 = _interopRequireDefault(_dataSample);
+var _data2 = _interopRequireDefault(_data);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -6824,7 +6824,7 @@ var ContentRow = function ContentRow() {
         _react2['default'].createElement(
           _reactSketchapp.Text,
           { style: _design.fonts.body },
-          _dataSample2['default'].skills
+          _data2['default'].skills
         )
       )
     ),
@@ -6842,7 +6842,7 @@ var ContentRow = function ContentRow() {
         _react2['default'].createElement(
           _reactSketchapp.Text,
           { style: _design.fonts.body },
-          _dataSample2['default'].education
+          _data2['default'].education
         )
       )
     ),
@@ -6857,7 +6857,7 @@ var ContentRow = function ContentRow() {
       _react2['default'].createElement(
         _reactSketchapp.View,
         { style: styles.contentItemText },
-        _dataSample2['default'].projects.map(function (project) {
+        _data2['default'].projects.map(function (project) {
           return _react2['default'].createElement(
             _reactSketchapp.Text,
             { style: [_design.fonts.body, { flexDirection: 'row' }] },
@@ -6890,9 +6890,9 @@ var _reactSketchapp = __webpack_require__(8);
 
 var _ExperienceItem = __webpack_require__(39);
 
-var _dataSample = __webpack_require__(143);
+var _data = __webpack_require__(142);
 
-var _dataSample2 = _interopRequireDefault(_dataSample);
+var _data2 = _interopRequireDefault(_data);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -6908,7 +6908,7 @@ var Experience = function Experience() {
   return _react2['default'].createElement(
     _reactSketchapp.View,
     { name: 'Experience', style: styles.wrapper },
-    _dataSample2['default'].experience.map(function (experience) {
+    _data2['default'].experience.map(function (experience) {
       return _react2['default'].createElement(_ExperienceItem.ExperienceItem, { experience: experience });
     })
   );
@@ -6933,9 +6933,9 @@ var _reactSketchapp = __webpack_require__(8);
 
 var _design = __webpack_require__(10);
 
-var _dataSample = __webpack_require__(143);
+var _data = __webpack_require__(142);
 
-var _dataSample2 = _interopRequireDefault(_dataSample);
+var _data2 = _interopRequireDefault(_data);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -6964,22 +6964,22 @@ var Footer = function Footer() {
       _react2['default'].createElement(
         _reactSketchapp.Text,
         null,
-        _dataSample2['default'].name
+        _data2['default'].name
       ),
       _react2['default'].createElement(
         _reactSketchapp.Text,
         { style: _design.fonts.body },
-        _dataSample2['default'].footer.footer_link_1
+        _data2['default'].footer.footer_link_1
       ),
       _react2['default'].createElement(
         _reactSketchapp.Text,
         { style: _design.fonts.body },
-        _dataSample2['default'].footer.footer_link_2
+        _data2['default'].footer.footer_link_2
       ),
       _react2['default'].createElement(
         _reactSketchapp.Text,
         { style: _design.fonts.body },
-        _dataSample2['default'].footer.footer_link_3
+        _data2['default'].footer.footer_link_3
       )
     ),
     _react2['default'].createElement(
@@ -7018,9 +7018,9 @@ var _reactSketchapp = __webpack_require__(8);
 
 var _design = __webpack_require__(10);
 
-var _dataSample = __webpack_require__(143);
+var _data = __webpack_require__(142);
 
-var _dataSample2 = _interopRequireDefault(_dataSample);
+var _data2 = _interopRequireDefault(_data);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -7056,12 +7056,12 @@ var Header = function Header() {
       _react2['default'].createElement(
         _reactSketchapp.Text,
         { style: _design.fonts.h1 },
-        _dataSample2['default'].name
+        _data2['default'].name
       ),
       _react2['default'].createElement(
         _reactSketchapp.Text,
         { style: [_design.fonts.h4, styles.jobTitle] },
-        _dataSample2['default'].job
+        _data2['default'].job
       )
     ),
     _react2['default'].createElement(
@@ -7075,8 +7075,8 @@ var Header = function Header() {
       _react2['default'].createElement(
         _reactSketchapp.Text,
         { name: 'Contact Info', style: [_design.fonts.body, styles.contactText] },
-        _dataSample2['default'].phone,
-        _dataSample2['default'].email
+        _data2['default'].phone,
+        _data2['default'].email
       )
     ),
     _react2['default'].createElement(
@@ -7093,17 +7093,17 @@ var Header = function Header() {
         _react2['default'].createElement(
           _reactSketchapp.Text,
           { name: 'Street' },
-          _dataSample2['default'].address.street
+          _data2['default'].address.street
         ),
         _react2['default'].createElement(
           _reactSketchapp.Text,
           { name: 'City' },
-          _dataSample2['default'].address.city
+          _data2['default'].address.city
         ),
         _react2['default'].createElement(
           _reactSketchapp.Text,
           { name: 'PostCode' },
-          _dataSample2['default'].address.postcode
+          _data2['default'].address.postcode
         )
       )
     )
@@ -15950,20 +15950,19 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 /***/ }),
-/* 142 */,
-/* 143 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
-	"name": "Your Name",
-	"job": "Job Title",
-	"phone": "0123456789",
-	"email": "email@email.com",
-	"website": "your-website.com",
+	"name": "Chris Winch",
+	"job": "Frontend Developer",
+	"phone": "07446055398",
+	"email": "hello@chriswinch.me",
+	"website": "chriswinch.me",
 	"address": {
-		"street": "Street",
-		"city": "City",
-		"postcode": "A12 3CD"
+		"street": "31 Queen Square",
+		"city": "Glasgow",
+		"postcode": "G41 2BD"
 	},
 	"bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto commodi temporibus quidem maiores quia quos distinctio cum maxime accusantium consequatur, deserunt optio fugit delectus, voluptates officia unde id? At, laudantium.",
 	"experience": [
@@ -15988,38 +15987,42 @@ module.exports = {
 			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolor adipisci perspiciatis, asperiores quo? Animi veniam veritatis commodi eos dicta ipsam necessitatibus hic eligendi architecto, saepe aperiam nam eaque quia."
 		}
 	],
-	"skills": "SKILL 1 / SKILL 2 / SKILL 3 / SKILL 4 / SKILL 5 / SKILL 6 / SKILL 7 / SKILL 8 / SKILL 9 / SKILL 10",
-	"education": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ut perferendis itaque quis reiciendis dicta ipsa repellat, nostrum laboriosam rem in dolorum omnis suscipit minus! Illum ullam voluptas aperiam reprehenderit!",
+	"skills": "HTML5 / CSS3 & SASS / JAVASCRIPT / ES6 / REACT / REACT NATIVE / WEBPACK & GULP / MOCHA / JEST / NODE / PHP / WORDPRESS / FOUNDATION & BOOTSTRAP / SHOPIFY / SKETCH / ADOBE CREATIVE SUITE",
+	"education": "I am proudly self taught and have felt that due to the fast paced nature of our industry that this has let me learn and adapt quickly. I am constantly learning and try to pick up new technologies / tools as they are needed.",
 	"projects": [
 		{
-			"title": "Project One",
-			"url": "projectone.com"
+			"title": "Courtauld",
+			"url": "courtauld.ac.uk"
 		},
 		{
-			"title": "Project Two",
-			"url": "projecttwo.net"
+			"title": "The Sixteen",
+			"url": "thesixteen.com"
 		},
 		{
-			"title": "Project Three",
-			"url": "projectthree.co.uk"
+			"title": "Hamilton Park Racecourse",
+			"url": "hamiltonpark.co.uk"
 		},
 		{
-			"title": "Project Four",
-			"url": "projectfour.me"
+			"title": "Drop & Roll Tour",
+			"url": "dropandrolltour.com"
 		},
 		{
-			"title": "Project Five",
-			"url": "projectfive.it"
+			"title": "Uwi Technology",
+			"url": "uwitechnology.com"
 		},
 		{
-			"title": "Project Six",
-			"url": "projectsix.io"
+			"title": "Credit Fix",
+			"url": "creditfix.co.uk"
+		},
+		{
+			"title": "Unit 23 Skatepark",
+			"url": "unit23skatepark.co.uk"
 		}
 	],
 	"footer": {
-		"footer_link_1": "websiteone.com",
-		"footer_link_2": "websitetwo.com",
-		"footer_link_3": "websitethree.com"
+		"footer_link_1": "chriswinch.me",
+		"footer_link_2": "github.com/chriswinch",
+		"footer_link_3": "codepen.io/chriswinch"
 	}
 };
 

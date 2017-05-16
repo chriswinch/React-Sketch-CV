@@ -6852,7 +6852,7 @@ var ContentRow = function ContentRow() {
       _react2['default'].createElement(
         _reactSketchapp.Text,
         { style: styles.contentItemTitle },
-        'Selected project\'s I have worked on:'
+        'Selected projects I have worked on:'
       ),
       _react2['default'].createElement(
         _reactSketchapp.View,

@@ -1,0 +1,63 @@
+{
+  "name": "Your Name",
+  "job": "Job Title",
+  "phone": "0123456789",
+  "email": "email@email.com",
+  "website": "your-website.com",
+  "address": {
+    "street": "Street",
+    "city": "City",
+    "postcode": "A12 3CD"
+  },
+  "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto commodi temporibus quidem maiores quia quos distinctio cum maxime accusantium consequatur, deserunt optio fugit delectus, voluptates officia unde id? At, laudantium.",
+  "experience": [
+    {
+      "title": "Item 1",
+      "date": "May 2016 - Oct 2016",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolor adipisci perspiciatis, asperiores quo? Animi veniam veritatis commodi eos dicta ipsam necessitatibus hic eligendi architecto, saepe aperiam nam eaque quia."
+    },
+    {
+      "title": "Item 2",
+      "date": "May 2016 - Oct 2016",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolor adipisci perspiciatis, asperiores quo? Animi veniam veritatis commodi eos dicta ipsam necessitatibus hic eligendi architecto, saepe aperiam nam eaque quia."
+    },
+    {
+      "title": "Item 3",
+      "date": "May 2016 - Oct 2016",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolor adipisci perspiciatis, asperiores quo? Animi veniam veritatis commodi eos dicta ipsam necessitatibus hic eligendi architecto, saepe aperiam nam eaque quia."
+    },
+    {
+      "title": "Item 4",
+      "date": "May 2016 - Oct 2016",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolor adipisci perspiciatis, asperiores quo? Animi veniam veritatis commodi eos dicta ipsam necessitatibus hic eligendi architecto, saepe aperiam nam eaque quia."
+    }
+  ],
+  "skills": "SKILL 1 / SKILL 2 / SKILL 3 / SKILL 4 / SKILL 5 / SKILL 6 / SKILL 7 / SKILL 8 / SKILL 9 / SKILL 10",
+  "education": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ut perferendis itaque quis reiciendis dicta ipsa repellat, nostrum laboriosam rem in dolorum omnis suscipit minus! Illum ullam voluptas aperiam reprehenderit!",
+  "projects": [
+    {
+      "title": "Project One",
+      "url": "projectone.com"
+    },
+    {
+      "title": "Project Two",
+      "url": "projecttwo.net"
+    },
+    {
+      "title": "Project Three",
+      "url": "projectthree.co.uk"
+    },
+    {
+      "title": "Project Four",
+      "url": "projectfour.me"
+    },
+    {
+      "title": "Project Five",
+      "url": "projectfive.it"
+    },
+    {
+      "title": "Project Six",
+      "url": "projectsix.io"
+    }
+  ]
+}

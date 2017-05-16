@@ -17,14 +17,14 @@ const styles = StyleSheet.create({
   }
 });
 
-const ExperienceItem = ({ data }) => (
-  <View name={`Experience ${data.title}`} style={styles.wrapper}>
+const ExperienceItem = ({ experience }) => (
+  <View name={`Experience ${experience.title}`} style={styles.wrapper}>
     <View style={styles.titleWrapper}>
-      <Text style={styles.titleItem}>{data.title}</Text>
-      <Text style={[fonts.subHeading3, styles.titleItem, { paddingBottom: 1 }]}>{data.date.toUpperCase()}</Text>
+      <Text style={styles.titleItem}>{experience.title}</Text>
+      <Text style={[fonts.subHeading3, styles.titleItem, { paddingBottom: 1 }]}>{experience.date}</Text>
     </View>
     <Text style={[fonts.body]}>
-      {data.content}
+      {experience.content}
     </Text>
   </View>
 )

@@ -1,0 +1,67 @@
+{
+  "name": "Chris Winch",
+  "job": "Frontend Developer",
+  "phone": "07446055398",
+  "email": "hello@chriswinch.me",
+  "website": "chriswinch.me",
+  "address": {
+    "street": "31 Queen Square",
+    "city": "Glasgow",
+    "postcode": "G41 2BD"
+  },
+  "bio": "Frontend/UI Developer with over 10 years experience in building accessible and performant websites for a wide range of clients including small businesses, digital agencies and well established companies.",
+  "experience": [
+    {
+      "title": "Freelance / Contracting",
+      "date": "May 2013 - Present",
+      "content": "Working with a variety of digital agencies and my own personal clients, I have developed sites for organisations such as The Courtauld Institute of Art, The Sixteen and Danny MacAskill’s Drop & Roll Tour & Credit Fix amongst others. Predominantly my work has concentrated on wordpress theme development, front-end maintenance, ecommerce, accessibility and more."
+    },
+    {
+      "title": "Fat Buzz",
+      "date": "Oct 2012 - May 2013",
+      "content": "Collaborating with the design and marketing teams to build brochure & eccommerce sites on top of Wordpress. I also took on the occasional print design task working on flyers, posters and other marketing material."
+    },
+    {
+      "title": "Unit 23 Skatepark",
+      "date": "Nov 2002 - Aug 2012",
+      "content": "I started working at Unit 23 Skatepark as a ramp builder in 2002. As the business grew my role evolved into managing the design and development of their website and online shop. We experimented with different ecommerce platforms such as Actinic, Magento and WooCommerce. I also created designs for adverts, posts, skateboards and t-shirts."
+    }
+  ],
+  "skills": "HTML5 / CSS3 & SASS / JAVASCRIPT / ES6 / REACT / REACT NATIVE / NODE / WEBPACK & GULP / PHP / WORDPRESS / FOUNDATION & BOOTSTRAP / SHOPIFY / SKETCH / ADOBE CREATIVE SUITE",
+  "education": "I am proudly self taught and have felt that due to the fast paced nature of our industry that this has let me learn and adapt quickly. I am constantly learning and try to pick up new technologies / tools as they are needed.",
+  "projects": [
+    {
+      "title": "Courtauld",
+      "url": "courtauld.ac.uk"
+    },
+    {
+      "title": "The Sixteen",
+      "url": "thesixteen.com"
+    },
+    {
+      "title": "Hamilton Park Racecourse",
+      "url": "hamiltonpark.co.uk"
+    },
+    {
+      "title": "Drop & Roll Tour",
+      "url": "dropandrolltour.com"
+    },
+    {
+      "title": "Uwi Technology",
+      "url": "uwitechnology.com"
+    },
+    {
+      "title": "Credit Fix",
+      "url": "creditfix.co.uk"
+    },
+    {
+      "title": "Unit 23 Skatepark",
+      "url": "unit23skatepark.co.uk"
+    }
+  ],
+  "footer": {
+    "footer_link_1": "chriswinch.me",
+    "footer_link_2": "github.com/chriswinch",
+    "footer_link_3": "codepen.io/chriswinch"
+  }
+}

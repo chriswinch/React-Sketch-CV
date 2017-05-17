@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     borderColor: 'black',
     marginTop: 20,
     paddingTop: 15,
-    marginHorizontal: 35,
+    marginHorizontal: 25,
     flexDirection: 'row',
     // justifyContent: 'space-between',
   },

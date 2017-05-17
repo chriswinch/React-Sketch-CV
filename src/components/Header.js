@@ -8,8 +8,8 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderColor: 'black',
     borderStyle: 'solid',
-    paddingVertical: 25,
-    marginHorizontal: 35,
+    paddingVertical: 15,
+    marginHorizontal: 25,
     flexDirection: 'row',
   },
   headerName: {

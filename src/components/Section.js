@@ -4,8 +4,8 @@ import { fonts } from '../design';
 
 const styles = StyleSheet.create({
   wrapper: {
-    paddingTop: 25,
-    paddingHorizontal: 35,
+    paddingTop: 18,
+    paddingHorizontal: 25,
   },
   sectionHeading: {
     marginBottom: 15,

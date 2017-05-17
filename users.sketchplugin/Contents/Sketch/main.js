@@ -2140,30 +2140,25 @@ module.exports = {
 		"city": "Glasgow",
 		"postcode": "G41 2BD"
 	},
-	"bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto commodi temporibus quidem maiores quia quos distinctio cum maxime accusantium consequatur, deserunt optio fugit delectus, voluptates officia unde id? At, laudantium.",
+	"bio": "Frontend/UI Developer with over 10 years experience in building accessible and performant websites for a wide range of clients including small businesses, digital agencies and well established companies.",
 	"experience": [
 		{
-			"title": "Item 1",
-			"date": "May 2016 - Oct 2016",
-			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolor adipisci perspiciatis, asperiores quo? Animi veniam veritatis commodi eos dicta ipsam necessitatibus hic eligendi architecto, saepe aperiam nam eaque quia."
+			"title": "Freelance / Contracting",
+			"date": "May 2013 - Present",
+			"content": "Working with a variety of digital agencies and my own personal clients, I have developed sites for organisations such as The Courtauld Institute of Art, The Sixteen and Danny MacAskill’s Drop & Roll Tour & Credit Fix amongst others. Predominantly my work has concentrated on wordpress theme development, front-end maintenance, ecommerce, accessibility and more."
 		},
 		{
-			"title": "Item 2",
-			"date": "May 2016 - Oct 2016",
-			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolor adipisci perspiciatis, asperiores quo? Animi veniam veritatis commodi eos dicta ipsam necessitatibus hic eligendi architecto, saepe aperiam nam eaque quia."
+			"title": "Fat Buzz",
+			"date": "Oct 2012 - May 2013",
+			"content": "Collaborating with the design and marketing teams to build brochure & eccommerce sites on top of Wordpress. I also took on the occasional print design task working on flyers, posters and other marketing material."
 		},
 		{
-			"title": "Item 3",
-			"date": "May 2016 - Oct 2016",
-			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolor adipisci perspiciatis, asperiores quo? Animi veniam veritatis commodi eos dicta ipsam necessitatibus hic eligendi architecto, saepe aperiam nam eaque quia."
-		},
-		{
-			"title": "Item 4",
-			"date": "May 2016 - Oct 2016",
-			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolor adipisci perspiciatis, asperiores quo? Animi veniam veritatis commodi eos dicta ipsam necessitatibus hic eligendi architecto, saepe aperiam nam eaque quia."
+			"title": "Unit 23 Skatepark",
+			"date": "Nov 2002 - Aug 2012",
+			"content": "I started working at Unit 23 Skatepark as a ramp builder in 2002. As the business grew my role evolved into managing the design and development of their website and online shop. We experimented with different ecommerce platforms such as Actinic, Magento and WooCommerce. I also created designs for adverts, posts, skateboards and t-shirts."
 		}
 	],
-	"skills": "HTML5 / CSS3 & SASS / JAVASCRIPT / ES6 / REACT / REACT NATIVE / WEBPACK & GULP / MOCHA / JEST / NODE / PHP / WORDPRESS / FOUNDATION & BOOTSTRAP / SHOPIFY / SKETCH / ADOBE CREATIVE SUITE",
+	"skills": "HTML5 / CSS3 & SASS / JAVASCRIPT / ES6 / REACT / REACT NATIVE / NODE / WEBPACK & GULP / PHP / WORDPRESS / FOUNDATION & BOOTSTRAP / SHOPIFY / SKETCH / ADOBE CREATIVE SUITE",
 	"education": "I am proudly self taught and have felt that due to the fast paced nature of our industry that this has let me learn and adapt quickly. I am constantly learning and try to pick up new technologies / tools as they are needed.",
 	"projects": [
 		{
@@ -7023,7 +7018,7 @@ var styles = _reactSketchapp.StyleSheet.create({
     borderColor: 'black',
     marginTop: 20,
     paddingTop: 15,
-    marginHorizontal: 35,
+    marginHorizontal: 25,
     flexDirection: 'row'
   },
   footerItem: {
@@ -7106,8 +7101,8 @@ var styles = _reactSketchapp.StyleSheet.create({
     borderBottomWidth: 1,
     borderColor: 'black',
     borderStyle: 'solid',
-    paddingVertical: 25,
-    marginHorizontal: 35,
+    paddingVertical: 15,
+    marginHorizontal: 25,
     flexDirection: 'row'
   },
   headerName: {
@@ -7210,8 +7205,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
 
 var styles = _reactSketchapp.StyleSheet.create({
   wrapper: {
-    paddingTop: 25,
-    paddingHorizontal: 35
+    paddingTop: 18,
+    paddingHorizontal: 25
   },
   sectionHeading: {
     marginBottom: 15

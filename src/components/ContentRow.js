@@ -34,8 +34,8 @@ const ContentRow = () => (
     <View style={styles.contentItem}>
       <Text style={styles.contentItemTitle}>Selected projects I have worked on:</Text>
       <View style={styles.contentItemText}>
-        {data.projects.map(project => {
-          return <Text style={[fonts.body, { flexDirection: 'row' }]}>{'\u2022'} {` ${project.url}`}</Text>
+        {data.projects.map((project, key) => {
+          return <Text key={key} style={[fonts.body, { flexDirection: 'row' }]}>{'\u2022'} {` ${project.url}`}</Text>
         })}
       </View>
     </View>
